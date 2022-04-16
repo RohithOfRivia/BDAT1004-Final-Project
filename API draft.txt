@@ -1,0 +1,11 @@
+@app.route("/api/songs/<Position>", methods=['Get'])
+def getOne():
+    if request.method == "GET":
+        pass
+
+@app.route("/api/songs/<range>", methods=['Get'])
+def getSome():
+    if request.method == "GET":
+        pass
+
+Not completed because of SLS certificate errors
